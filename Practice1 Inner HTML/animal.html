@@ -1,0 +1,60 @@
+<!doctype html>
+<html land="en">
+<head>
+<meta charset="utf-8">
+<title>pets</title>
+<style>
+	body {background-color:#9B9BC3;}
+	#text {
+	width:860px;
+	margin-left:auto;
+	margin-right: auto;}
+	img{  border:3px solid #000000;  }
+
+</style>
+<script>
+	var myFirstVariable= 8 ;
+
+	function main() {
+
+		html ="<p>select your pets.</p><img src='pets.jpg'>";
+		document.getElementById("text").innerHTML  = html;
+	}
+
+	function myFirst() {
+
+		html ="<p>The cat is a domestic species of small carnivorous mammal.</p><img src='cat1.jpg'>";
+		document.getElementById("text").innerHTML  = html;
+	}
+
+	function mySecond() {
+
+		html ="<p>The domestic dog is a wolf-like canid that can be found distributed around the world. </p><img src='dog2.jpg'>";
+		document.getElementById("text").innerHTML  = html;
+	}
+	function myThird() {
+
+		html ="<p>Parrots, also known as psittacines, are birds of the roughly 398 species in 92 genera comprising the order Psittaciformes, found mostly in tropical and subtropical regions.</p><img src='bird3.png'>";
+		document.getElementById("text").innerHTML  = html;
+	}
+
+</script>
+</head>
+<body><div id="text">
+
+	<h1>Pets</h1>
+	<button onclick="main()">main</button>
+
+	<button onclick="myFirst()">Cat</button>
+
+	<button onclick="mySecond()">Dog</button>
+
+	<button onclick="myThird()">Small Bird-parrot</button>
+	
+
+	<p>select your pets.</p>
+		<img src='pets.jpg'>
+	</div>
+	
+</body>
+</html>
